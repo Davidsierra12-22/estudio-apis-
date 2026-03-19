@@ -1,6 +1,6 @@
 const bcrypt = require('bcryptjs'); 
 const { validationResult } = require('express-validator'); 
-const Usuario = require('../models/Usuario'); 
+const Usuario = require('../models/usuario'); 
  
 class UsuarioController { 
   static async crear(req, res, next) { 
